@@ -1,3 +1,28 @@
 body {
-  background: #465199;
+  background: #6689C9;
+  color: #C21F17;
+  font-family: serif;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.first-number {
+  padding-right: 1em;
+}
+
+.second-number {
+  padding-right: .7em;
+}
+
+
+.buttons {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.third-number {
+  padding-right: 2.6em;
 }

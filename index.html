@@ -6,15 +6,26 @@
     <title>JavaScript Calculator</title>
 </head>
 <body>
-    <h1>Insert a number into each form and then click calculate</h1>
+    <h1>JavaScript Calculator</h1>
     <form class="submitform">
-        <label for="first-number">First Number:</label>
+      <div class="number-1">
+        <label class="first-number" for="first-number">1st Number:</label>
         <input type="text" name="num1" class="num1">
-        <label for="second-number">Second Number</label>
+      </div>
+      <div class="number-2">
+        <label class="second-number" for="second-number">2nd Number:</label>
         <input type="text" name="num2" class="num2">
-        <input type="button" class="calc" value="Calculate">
-        <label for="output">Result:</label>
+      </div>
+      <div class="buttons">
+        <input type="button" class="plus" value="+">
+        <input type="button" class="minus" value="-">
+        <input type="button" class="divide" value="/">
+        <input type="button" class="multiply" value="X">
+      </div>
+      <div class="number-3">
+        <label class="third-number" for="output">Answer:</label>
         <input type="text" name="output" class="num3">
+      </div>
     </form>
     <script src="main.js">
     </script>
